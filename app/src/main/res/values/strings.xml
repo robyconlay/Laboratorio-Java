@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Spo(r)t Finder</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- login/signup activities -->
+    <string name="login_signup_email">Email</string>
+    <string name="login_signup_password">Password</string>
+    <string name="login_signup_emailField_hint">Inserisci la tua email</string>
+    <string name="login_signup_passwordField_hint">Inserisci la password</string>
+
+    <!-- login activity -->
+    <string name="login_title">Accedi</string>
+    <string name="login_additional">Oppure accedi con un account social</string>
+    <string name="login_passwordDimenticata">Password dimenticata?</string>
+    <string name="login_registrati">Non hai un account? <b>Registrati</b></string>
+    <string name="login_bottone_accedi">Accedi</string>
+
+    <string name="needed_field">Campo obbligatorio</string>
+    <string name="invalid_mail">Email non valida</string>
+    <string name="used_mail">Email già utilizzata</string>
+    <string name="psw_length">La password deve essere lunga almeno 6 caratteri!</string>
+    <string name="weak_psw">Password troppo debole</string>
+    <string name="terms_of_service">Devi accettare i Termini di Servizio</string>
+
+
+    <!-- signup activity -->
+    <string name="signup_title">Registrati</string>
+
+    <string name="signup_additional">Registrati con un account social</string>
+    <string name="signup_account">Hai già un account?</string>
+    <string name="signup_accedi">Accedi</string>
+
+    <string name="signup_bottone_registrati">Registrati</string>
+    <string name="signup_bottone_TOS">Ho letto e accetto i termini di servizio</string>
+
+    <string name="signup_login">Hai già un account? <b>Accedi</b></string>
+
+    <!-- add location activity -->
+    <string name="add_location_title">Aggiungi un luogo</string>
+    <string name="add_location_address_hint">Inserisci l\'indirizzo del luogo</string>
+
+    <string name="add_location_insert_image">Inserisci delle immagini</string>
+    <string name="add_location_description_hint">Inserisci una breve descrizione del luogo</string>
+    <string name="add_location_add_button">Aggiungi</string>
+
+    <!-- location activity -->
+    <string name="location_share">Condividi</string>
+    <string name="write_review">Scrivi una recensione</string>
+
+    <!-- report activity -->
+    <string name="report_activity_title">Recensioni segnalate</string>
+    <string name="no_report">Nessuna segnalazione al momento</string>
+
+    <!-- sport requests activity -->
+    <string name="no_sport_requests">Nessuna proposta di sport al momento</string>
+    <string name="sport_request_activity_title">Sport proposti</string>
+
+    <!-- add sport activity -->
+    <string name="add_sport_activity_title">Aggiungi uno sport</string>
+
+    <!-- my locations activity -->
+    <string name="my_locations_activity_title">Le tue location</string>
+    <string name="no_created_locations">Non ci sono location create da te!</string>
+
+    <!-- modify location activity -->
+    <string name="modify_loc_title">Proponi delle modifiche</string>
+
+    <!-- for impaired people   -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- dialog box   -->
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="err_images">Impossibile caricare le immagini</string>
+    <string name="saved_user_country">saved_user_country</string>
+    <string name="default_user_country">italy</string>
+    <string name="location_directions">Direzioni</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="no_sports">Devi selezionare almeno uno sport</string>
+    <string name="no_descr">La descrizione non può essere vuota</string>
+
+    <!-- toasts -->
+    <string name="suggestion_bar">Digita un luogo per cercarlo</string>
+    <string name="err_firebase">Impossibile caricare le Locations</string>
+    <string name="err_location">Impossibile caricare la Location</string>
+    <string name="err_sports">Impossibile caricare gli sport</string>
+    <string name="turn_on_loc">La posizione del dispositivo deve essere attiva</string>
+    <string name="err_open_loc">Impossibile aprire la Location al momento</string>
+    <string name="img_number">Puoi selezionare solo cinque immagini (5)</string>
+    <string name="img_preview">Clicca sull\'immagine per aprirla</string>
+    <string name="img_close_preview">Clicca sull\'immagine per chiudere l\'anteprima</string>
+    <string name="no_image">Devi selezionare almeno un\'immagine</string>
+    <string name="err_sharing">Location non accessibile</string>
+    <string name="no_review">Devi effettuare l\'accesso per scrivere una recensione</string>
+    <string name="just_reviewed">Recensione già inserita</string>
+    <string name="auth_failed">Autenticazione fallita</string>
+    <string name="disconnected">Disconnesso con successo</string>
+
+    <!-- logs -->
+    <string name="err_log">Si è verificato un errore: </string>
+
+    <!-- messages -->
+    <string name="ask_logout">Vuoi fare il logout?</string>
+
+    <!-- choosers -->
+    <string name="pick_img">Seleziona una foto</string>
+    <string name="share_via">Condividi con</string>
+    <string name="indietro">Uscire dalla pagina?</string>
+    <string name="dati_andranno_persi">I dati andranno persi</string>
+    <string name="img_removed">Immagine rimossa</string>
+    <string name="remove_img">Rimuovi</string>
+
+<!--    descriptions-->
+    <string name="add_location_fetch_position_button_description">Trova posizione attuale</string>
+    <string name="add_location_add_button_description">Aggiungi location</string>
+    <string name="add_location_menu_button_description">Apri il menu a scomparsa</string>
+    <string name="location_ok">OK</string>
+    <string name="location_annulla">Annulla</string>
+    <string name="verify_location">Verifica Luoghi</string>
+    <string name="verify_location_description">Verifica un luogo del quale conosci l\'esistenza</string>
+    <string name="add_sport_description">Aggiungi uno sport tutt\'ora assente dall\'app</string>
+    <string name="add_sport">Aggiungi sport</string>
+    <string name="add_location_description">Aggiungi un luogo che non è ancora presente</string>
+    <string name="add_location">Aggiungi luogo</string>
+    <string name="visit_map_description">Scopri i luoghi da visitare</string>
+    <string name="visit_map">Mappa</string>
+    <string name="concept_description">Benvenuto in Sport Finder, l\'applicazione con la quale puoi trovare luoghi dove praticare i tuoi sport preferiti</string>
+    <string name="login_description">Effettua il login</string>
+    <string name="logout_description">Effettua il logout</string>
+    <string name="verify_sport">Verifica sport proposti</string>
+    <string name="verify_sport_description">Approva/rifiuta sport proposti dagli utenti. Disponibile solo per admin</string>
+    <string name="report_reviews">Segnalazioni recensioni</string>
+    <string name="report_reviews_description">Controlla le segnalazioni riguardati recensioni immesse. Disponibile solo per admin</string>
+    <string name="use_position">Oppure usa la tua posizione attuale</string>
+    <string name="position">Posizione</string>
+    <string name="opening_hours">Orario di apertura e chiusura (opzionale)</string>
+    <string name="live_position">Oppure usa la tua posizione attuale</string>
+    <string name="chosen_position">La posizione scelta è:</string>
+    <string name="images_permission_denied">Devi accettare i permessi per caricare delle immagini</string>
+    <string name="cannot_modify">Devi effettuare l\'accesso per proporre delle modifiche</string>
+    <string name="back_location">Tornare alla location?</string>
+    <string name="modificy_location">Modifica</string>
+    <string name="modify_location">Modifica</string>
+    <string name="modify_opening_hours">Modifica l\'orario di apertura</string>
+    <string name="err_generic">Si è verificato un errore</string>
+    <string name="write_msg">Scrivi un messaggio</string>
+    <string name="msg_required">Devi inserire almeno un messaggio!</string>
+    <string name="success_img">Immagine inviata correttamente.</string>
+    <string name="notify_changes">Modifiche proposte</string>
+    <string name="channel_name">Spo(r)t Finder</string>
+    <string name="channel_description">Notification tools</string>
+    <string name="msg_token_fmt">Token obtained</string>
+    <string name="loc_created_at">Location creata il</string>
+    <string name="invalid_hours">Seleziona gli orari correttamente</string>
+    <string name="open">Aperto</string>
+    <string name="from">dalle</string>
+    <string name="until">alle</string>
+    <string name="no_opening_time_info">Nessuna informazione sugli orari</string>
+    <string name="img_confirm">Conferma immagine</string>
+    <string name="changes_by">Modifica proposta da:</string>
+    <string name="author_unavailable">Autore non disponibile</string>
+    <string name="msg_unavailable">Messaggio non disponibile</string>
+    <string name="hours_unavailable">Orari non suggeriti</string>
+    <string name="mandatory_field">Campo obbligatorio</string>
+    <string name="approve_hours">Approva orari</string>
+    <string name="approve_all">Approva</string>
+    <string name="reject_all">Rifiuta</string>
+    <string name="my_locations">Location create da te</string>
+    <string name="my_locations_description">Visualizza le location che hai aggiunto all\'applicazione</string>
+    <string name="last_img_removable">Puoi rimuovere solo l\'ultima immagine inserita</string>
+    <string name="address_from_button">Qui apparirà la posizione scelta</string>
+    <string name="modify_loc">Modifica</string>
+    <string name="review_added">Commento aggiunto</string>
+    <string name="add_review">Aggiungi</string>
+    <string name="reviews">Recensioni</string>
+    <string name="prevImage_description">Immagine precendente</string>
+    <string name="nextImage_description">Prossima immagine</string>
+
+
+</resources>

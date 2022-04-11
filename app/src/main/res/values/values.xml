@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    this file holds values which should be accessible from every activity
+-->
+<resources>
+    <string-array name="sports">
+        <item>Tutti</item>
+        <item>Pallavolo</item>
+        <item>Calcio</item>
+        <item>Pallacanestro</item>
+        <item>Parkour</item>
+        <item>Calistenichs</item>
+    </string-array>
+    <string-array name="sportsCheck">
+        <item>Pallavolo</item>
+        <item>Calcio</item>
+        <item>Pallacanestro</item>
+        <item>Parkour</item>
+        <item>Calistenichs</item>
+    </string-array>
+    <string-array name="admins">
+        <item>mazzalairob@gmail.com</item>
+        <item>andreleo02@gmail.com</item>
+    </string-array>
+</resources>

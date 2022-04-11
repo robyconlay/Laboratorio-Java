@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/nomeLocationTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Via tal dei tali"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/dataLocationTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creata il 28/12/2021"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/numeroProposteTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ci sono 0 modifiche proposte"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nomeLocationTV"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/visualizzaLocationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visualizza\n location">
+            </Button>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/visualizzaProposteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="visualizza\n proposte">
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

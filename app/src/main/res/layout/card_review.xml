@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp">
+
+        <LinearLayout
+            android:id="@+id/voteBox"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/upvoteIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="90"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:id="@+id/votesTV"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:text="20"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/downvoteIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="-90"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/reviewTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/moreIW"
+            android:layout_toEndOf="@+id/voteBox"
+            android:minHeight="30dp"
+            android:text="TextView"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/timestampTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reviewTV"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:text="24/07/2020"
+            android:textColor="#1d439b"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/autoreTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reviewTV"
+            android:layout_alignStart="@+id/reviewTV"
+            android:layout_toRightOf="@+id/voteBox"
+            android:text="Autore"
+            android:textColor="#1d439b"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/moreIW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ic_baseline_more_vert_24" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
