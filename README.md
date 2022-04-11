@@ -1,4 +1,6 @@
-Android project Spo(r)t Finder
+## Spo(r)t Finder
+
+This is the code for the app Spo(r)t Finder, and app that helps users in the activity of finding sports' spots where to train, for every sport.
 
 This app has been developed by Roberto Mazzalai and Andrea Leoni for the project of the course of Laboratorio di programmazione di sistemi mobili e tablet.
 Java and Firebase were used
